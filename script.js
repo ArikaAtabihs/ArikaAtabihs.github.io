@@ -1,3 +1,3 @@
 function logName() {
-  console.log(document.getElementById("name").value);
+  window.alert(document.getElementById("name").value);
 }
