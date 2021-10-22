@@ -1,8 +1,12 @@
 body {
-  color: #A09ABC;
-  background-color: #E1DEE9;
+  color: #E1DEE9;
+  background-color: #A09ABC;
 }
 
 button {
   background-color: #B6A6CA;
+}
+
+p {
+  font-size: 50px;
 }
