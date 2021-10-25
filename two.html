@@ -6,7 +6,11 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <button onclick="alertName()">Show</button>
-    <p id="placeholder"></p>
+    <script>
+      window.onload = function() {
+        var name = localStorage.getItem("userName");
+        window.alert("Hello " + name);
+      }
+    </script>    
   </body>
 </html>
